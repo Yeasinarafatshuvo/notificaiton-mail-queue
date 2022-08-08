@@ -12,22 +12,23 @@ step 5# Now implements ShouldQueue  <br>
 step 6# After that write and customzed your code for receiving data from controller by object <br>
 or you can follow my TestEnrollMent  notification class <br>
 step 7# For database notification in TestEnrollMent notificaiton class add database notification in via method <br>
-public function via($notifiable) 
-    {
-        return ['mail', 'database'];
-    }
+public function via($notifiable)  <br>
+    {<br>
+        return ['mail', 'database'];<br>
+    }<br>
     <br>
 step8# for save database notificaiton use toArray() to toDatabase() methods <br>
 <br>
 like =>
-public function toArray($notifiable)
-    {
+<br>
+public function toArray($notifiable)<br>
+    {<br>
         return [
            'body' => $this->enrollMentData['body'],
            'enrolmentText' => $this->enrollMentData['enrolmentText'],
            'time' => $this->enrollMentData['thankyou']
         ];
-    }
+    }<br>
  <br>
  step9#create controller class TestEnrollMentController for logic  <br>
  you can follow my TestEnrollMentController class <br> 
