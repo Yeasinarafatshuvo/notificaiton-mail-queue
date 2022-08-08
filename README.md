@@ -24,9 +24,9 @@ like =>
 public function toArray($notifiable)<br>
     {<br>
         return [
-           'body' => $this->enrollMentData['body'],
-           'enrolmentText' => $this->enrollMentData['enrolmentText'],
-           'time' => $this->enrollMentData['thankyou']
+           'body' => $this->enrollMentData['body'], <br>
+           'enrolmentText' => $this->enrollMentData['enrolmentText'], <br>
+           'time' => $this->enrollMentData['thankyou'] <br>
         ];<br>
     }<br>
  <br>
