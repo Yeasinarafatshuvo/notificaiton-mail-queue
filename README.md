@@ -1,6 +1,6 @@
 In this simple project i show how to send notify mail using Notification by queue also use database notificatoin. Let's see how to follow the steps
 
-step 1# At first make a command for creating notification class
+step 1# At first make a command for creating notification class <br>
  php artisan make:notification TestEnrollMent
 step 2# After that create notification table for database notification
 php artisan notification:table
