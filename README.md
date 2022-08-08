@@ -27,7 +27,7 @@ public function toArray($notifiable)<br>
            'body' => $this->enrollMentData['body'],
            'enrolmentText' => $this->enrollMentData['enrolmentText'],
            'time' => $this->enrollMentData['thankyou']
-        ];
+        ];<br>
     }<br>
  <br>
  step9#create controller class TestEnrollMentController for logic  <br>
